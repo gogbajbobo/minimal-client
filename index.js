@@ -2,7 +2,7 @@
 
 window.onload = () => makeRequest()
 
-const makeRequest = (url = 'http://localhost:3000') => {
+const makeRequest = (url = 'http://172.16.101.10:3000') => {
 
     let httpRequest = false
 
